@@ -1,3 +1,10 @@
+%% plotting the Simulink model
+%print -dmeta -spart_2 model.emf
+%print('-smymodel','-dpdf','filename')
+%saveas(h,'filename','format')
+%出图代码：print -dmeta（出emf图） -s（模型名字） （图片名字）.emf
+
+%% plotting data (time series)
 figure(1);
 plot(shippositionBF.time,shippositionBF.signals.values(:,1));
 hold on;
