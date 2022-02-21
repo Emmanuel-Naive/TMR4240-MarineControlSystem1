@@ -14,7 +14,7 @@ print -dmeta（出emf图） -s（模型名字） （图片名字）.emf
 
 另增加saveas和print代码，但还没有调试。
 
-Simulink File 也可以直接保存pdf.
+Simulink File 也可以直接保存pdf（为矢量图）.
 
 直接左上角另存为pdf，该pdf为矢量图（可用于latex）
 
