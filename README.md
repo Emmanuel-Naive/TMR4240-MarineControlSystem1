@@ -6,9 +6,9 @@ Some codes for plotting.
 ## 1) 出Simulink的模型图的代码在plot.m
 
 代码为：
-···
+```
 print -dmeta（出emf图） -s（模型名字） （图片名字）.emf
-···
+```
 
 出图代码例子1（emf为矢量增强图，可用于word）：            print -dmeta -spart_2 model.emf
 
